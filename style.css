@@ -1,0 +1,52 @@
+html,body
+	{
+	margin:0;
+	padding:0;
+	width:100vw;
+	height:100vh;
+	background-color:#222222;
+	overflow:hidden;
+	}
+	
+a
+	{
+	text-decoration:none;
+	color:#ffffff;
+	outline : none;
+	}
+
+#bandeau-motifg
+	{
+	width:50vw;
+	height:20vh;
+	position:absolute;
+	top:0vh;
+	left:0vw;
+	background:url("images/bandeau-motif-gauche.jpg") repeat-x center;
+	background-size:auto 20vh;
+	z-index:0;
+	}
+	
+#bandeau-motifd
+	{
+	width:50vw;
+	height:20vh;
+	position:absolute;
+	top:0vh;
+	left:50vw;
+	background:url("images/bandeau-motif-droite.jpg") repeat-x center;
+	background-size:auto 20vh;
+	z-index:0;
+	}
+
+#bandeau
+	{
+	width:100vw;
+	height:20vh;
+	position:absolute;
+	top:0vh;
+	left:0vw;
+	background:url("images/bandeau.jpg") no-repeat center;
+	background-size:auto 20vh;
+	z-index:0;
+	}
