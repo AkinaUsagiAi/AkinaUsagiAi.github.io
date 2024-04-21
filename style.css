@@ -145,10 +145,10 @@ img
 	align-items:end;
 	min-height:15rem;
 	padding:.5rem;
-        width: 60vw;
+        width: 80vw;
         height: 30vh;
         top:25vh;
-        left:20vw;
+        left:10vw;
         }
 
 .carousel-slide:nth-child(1)
