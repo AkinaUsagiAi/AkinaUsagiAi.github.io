@@ -258,14 +258,14 @@ input[name=carousel-css][value=slide-1]:checked~.carousel-wrapper .carousel-slid
 	z-index:2;
 	width:3rem;
 	height:3rem;
-	background-color:rgba(10,10,10,.5);
 	border-radius:.5rem;
 	opacity:1;
 	cursor:pointer;
 	top:0;
 	bottom:0;
 	margin:auto 0;
-	background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Im02NDAtODAtNDAwLTQwMCA0MDAtNDAwIDU2IDU3LTM0MyAzNDMgMzQzIDM0M3oiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg==)
+	background-image:url("images/fleche.svg");
+	background-size:48px 48px;
 	}
 
 .carousel label[data-value|=slide]::after
