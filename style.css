@@ -182,7 +182,7 @@ img
     }
 }
 
-@media (min-width: 1024px)
+@media (max-width: 1024px)
     {
     .carousel
 	{
