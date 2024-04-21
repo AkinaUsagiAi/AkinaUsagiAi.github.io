@@ -145,11 +145,18 @@ img
 
 .carousel-slide:nth-child(3)
 	{
+	background:url("images/projet-final-fantasy-xiv-notes.png") no-repeat center;
+	background-size:auto 50vh;
+	}
+
+
+.carousel-slide:nth-child(4)
+	{
 	background:url("images/projet-open-ludum.png") no-repeat center;
 	background-size:auto 50vh;
     }
 
-.carousel-slide:nth-child(4)
+.carousel-slide:nth-child(5)
 	{
 	background:url("images/projet-steam-proton-solutions.png") no-repeat center;
 	background-size:auto 50vh;
