@@ -88,16 +88,35 @@ a.fill-div
     to 		{ transform: translateY(-200vh);	}
 	}
 
-#carte
+/* Large desktop */
+@media (min-width: 1024px)
 	{
-	width:100vw;
-	height:22vh;
-	position:absolute;
-	top:2.5vh;
-	left:0vw;
-	background:url("images/carte.png") no-repeat center;
-	background-size:auto 18vh;
-	z-index:0;
+	#carte
+		{
+		width:100vw;
+		height:22vh;
+		position:absolute;
+		top:2.5vh;
+		left:0vw;
+		background:url("images/carte.png") no-repeat center;
+		background-size:auto 18vh;
+		z-index:0;
+		}
+	}
+	
+@media (max-width: 767px)
+	{
+	#carte
+		{
+		width:100vw;
+		height:22vh;
+		position:absolute;
+		top:2.5vh;
+		left:0vw;
+		background:url("images/carte.png") no-repeat center;
+		background-size:auto 10vh;
+		z-index:0;
+		}
 	}
 
 #liens
