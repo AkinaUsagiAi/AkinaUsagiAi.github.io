@@ -88,40 +88,33 @@ a.fill-div
     to 		{ transform: translateY(-200vh);	}
 	}
 
-#bandeau-motifg
+#carte
 	{
-	width:50vw;
-	height:20vh;
+	width:100vw;
+	height:22vh;
 	position:absolute;
-	top:0vh;
+	top:2.5vh;
 	left:0vw;
-	background:url("images/bandeau-motif-gauche.jpg") repeat-x center;
-	background-size:auto 20vh;
-	z-index:0;
-	}
-	
-#bandeau-motifd
-	{
-	width:50vw;
-	height:20vh;
-	position:absolute;
-	top:0vh;
-	left:50vw;
-	background:url("images/bandeau-motif-droite.jpg") repeat-x center;
-	background-size:auto 20vh;
+	background:url("images/carte.png") no-repeat center;
+	background-size:auto 18vh;
 	z-index:0;
 	}
 
-#bandeau
+#liens
 	{
 	width:100vw;
-	height:20vh;
+	height:10vh;
 	position:absolute;
-	top:0vh;
+	bottom:7vh;
 	left:0vw;
-	background:url("images/bandeau.jpg") no-repeat center;
-	background-size:auto 20vh;
 	z-index:0;
+	text-align:center;
+	}
+
+img
+	{
+	height:10vh;
+	width:10vh;
 	}
 
 .carousel
@@ -134,7 +127,7 @@ a.fill-div
 	padding:.5rem;
     width: 60vw;
     height: 50vh;
-    top:30vh;
+    top:25vh;
     left:20vw;
     }
 
