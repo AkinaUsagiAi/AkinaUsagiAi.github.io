@@ -313,16 +313,15 @@ input[name=carousel-css][value=slide-1]:checked~.carousel-wrapper .carousel-slid
 	display:none;
 	position:absolute;
 	z-index:2;
-	width:3rem;
-	height:3rem;
-	border-radius:.5rem;
+	width:6rem;
+	height:6rem;
 	opacity:1;
 	cursor:pointer;
 	top:0;
 	bottom:0;
 	margin:auto 0;
 	background-image:url("images/fleche.svg");
-	background-size:48px 48px;
+	background-size:96px 96px;
 	}
 
 .carousel label[data-value|=slide]::after
