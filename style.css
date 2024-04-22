@@ -99,14 +99,14 @@ a.fill-div
 	z-index:0;
 	}
 
-@media (max-width: 1023px)
+@media (any-pointer: coarse)
 	{
 	#carte
 		{
 		background-size:auto 14vh;
 		}
 	}
-@media (min-width: 1024px)
+@media (any-pointer: fine)
 	{
 	#carte
 		{
@@ -145,7 +145,7 @@ img
         left:20vw;
         }
 
-@media (max-width: 1023px)
+@media (any-pointer: coarse)
 	{
 	.carousel-slide:nth-child(1)
 		{
@@ -177,7 +177,7 @@ img
 		background-size:auto 50vh;
 		}
 	}
-@media (min-width: 1024px)
+@media (any-pointer: fine)
 	{
 	.carousel-slide:nth-child(1)
 		{
