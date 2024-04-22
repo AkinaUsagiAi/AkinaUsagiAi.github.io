@@ -139,14 +139,20 @@ img
 	align-items:end;
 	min-height:15rem;
 	padding:.5rem;
-        width: 60vw;
-        height: 50vh;
-        top:25vh;
-        left:20vw;
-        }
+    width: 60vw;
+    height: 50vh;
+    top:25vh;
+    left:20vw;
+    }
 
 @media (any-pointer: coarse)
 	{
+	
+	.carousel
+		{
+		width: 80vw;
+		}
+		
 	.carousel-slide:nth-child(1)
 		{
 		background:url("images/projet-akina-usagi-hosts-file-mobile.png") no-repeat center;
