@@ -141,7 +141,6 @@ img
 	padding:.5rem;
     height: 50vh;
     top:25vh;
-    left:20vw;
     }
 
 @media (any-pointer: coarse)
@@ -149,6 +148,7 @@ img
 	.carousel
 		{
 		width: 80vw;
+		left:10vw;
 		}
 		
 	.carousel-slide:nth-child(1)
@@ -186,6 +186,7 @@ img
 	.carousel
 		{
 		width: 60vw;
+	    left:20vw;
 		}
 		
 	.carousel-slide:nth-child(1)
