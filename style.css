@@ -23,7 +23,7 @@ a.fill-div
     text-decoration: none;
 	}
 
- #stars
+#stars
 	{
     width: 1px;
     height: 1px;
@@ -103,7 +103,7 @@ a.fill-div
 	{
 	#carte
 		{
-		background-size:auto 14vh;
+		background-size:auto 13vh;
 		}
 	}
 @media (any-pointer: fine)
