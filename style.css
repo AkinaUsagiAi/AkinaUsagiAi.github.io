@@ -139,7 +139,6 @@ img
 	align-items:end;
 	min-height:15rem;
 	padding:.5rem;
-    width: 60vw;
     height: 50vh;
     top:25vh;
     left:20vw;
@@ -147,7 +146,6 @@ img
 
 @media (any-pointer: coarse)
 	{
-	
 	.carousel
 		{
 		width: 80vw;
@@ -185,6 +183,11 @@ img
 	}
 @media (any-pointer: fine)
 	{
+	.carousel
+		{
+		width: 60vw;
+		}
+		
 	.carousel-slide:nth-child(1)
 		{
 		background:url("images/projet-akina-usagi-hosts-file.png") no-repeat center;
