@@ -327,7 +327,7 @@ input[name=carousel-css][value=slide-1]:checked~.carousel-wrapper .carousel-slid
 
 .carousel label[data-value|=slide]::after
 	{
-	transform:rotate(180deg)
+	transform:scaleX(-1)
 	}
 
 .carousel label[data-value|=slide]::before:hover,.carousel label[data-value|=slide]::before:after
