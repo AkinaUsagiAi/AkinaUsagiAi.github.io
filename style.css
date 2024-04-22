@@ -88,33 +88,29 @@ a.fill-div
     to 		{ transform: translateY(-200vh);	}
 	}
 
+#carte
+	{
+	width:100vw;
+	height:22vh;
+	position:absolute;
+	top:2.5vh;
+	left:0vw;
+	background:url("images/carte.png") no-repeat center;
+	z-index:0;
+	}
+
+@media (max-width: 1023px)
+	{
+	#carte
+		{
+		background-size:auto 14vh;
+		}
+	}
 @media (min-width: 1024px)
 	{
 	#carte
 		{
-		width:100vw;
-		height:22vh;
-		position:absolute;
-		top:2.5vh;
-		left:0vw;
-		background:url("images/carte.png") no-repeat center;
 		background-size:auto 18vh;
-		z-index:0;
-		}
-	}
-	
-@media (max-width: 1024px)
-	{
-	#carte
-		{
-		width:100vw;
-		height:22vh;
-		position:absolute;
-		top:2.5vh;
-		left:0vw;
-		background:url("images/carte.png") no-repeat center;
-		background-size:auto 10vh;
-		z-index:0;
 		}
 	}
 
@@ -135,56 +131,7 @@ img
 	width:10vh;
 	}
 
-@media (max-width: 1024px)
-    {
-    .carousel
-	{
-	position:absolute;
-	display:flex;
-	justify-content:center;
-	align-items:end;
-	min-height:15rem;
-	padding:.5rem;
-        width: 80vw;
-        height: 30vh;
-        top:25vh;
-        left:10vw;
-        }
-
-.carousel-slide:nth-child(1)
-	{
-	background:url("images/projet-akina-usagi-hosts-file.png") no-repeat center;
-	background-size:auto 30vh;
-        }
-
-.carousel-slide:nth-child(2)
-	{
-	background:url("images/projet-debian-configurations.png") no-repeat center;
-	background-size:auto 30vh;
-	}
-
-.carousel-slide:nth-child(3)
-	{
-	background:url("images/projet-final-fantasy-xiv-notes.png") no-repeat center;
-	background-size:auto 30vh;
-	}
-
-.carousel-slide:nth-child(4)
-	{
-	background:url("images/projet-open-ludum.png") no-repeat center;
-	background-size:auto 30vh;
-    }
-
-.carousel-slide:nth-child(5)
-	{
-	background:url("images/projet-steam-proton-solutions.png") no-repeat center;
-	background-size:auto 30vh;
-    }
-}
-
-@media (min-width: 1024px)
-    {
-    .carousel
+.carousel
 	{
 	position:absolute;
 	display:flex;
@@ -198,36 +145,70 @@ img
         left:20vw;
         }
 
-.carousel-slide:nth-child(1)
+@media (max-width: 1023px)
 	{
-	background:url("images/projet-akina-usagi-hosts-file.png") no-repeat center;
-	background-size:auto 50vh;
-        }
+	.carousel-slide:nth-child(1)
+		{
+		background:url("images/projet-akina-usagi-hosts-file-mobile.png") no-repeat center;
+		background-size:auto 50vh;
+		}
 
-.carousel-slide:nth-child(2)
-	{
-	background:url("images/projet-debian-configurations.png") no-repeat center;
-	background-size:auto 50vh;
+	.carousel-slide:nth-child(2)
+		{
+		background:url("images/projet-debian-configurations-mobile.png") no-repeat center;
+		background-size:auto 50vh;
+		}
+
+	.carousel-slide:nth-child(3)
+		{
+		background:url("images/projet-final-fantasy-xiv-notes-mobile.png") no-repeat center;
+		background-size:auto 50vh;
+		}
+
+	.carousel-slide:nth-child(4)
+		{
+		background:url("images/projet-open-ludum-mobile.png") no-repeat center;
+		background-size:auto 50vh;
+		}
+
+	.carousel-slide:nth-child(5)
+		{
+		background:url("images/projet-steam-proton-solutions-mobile.png") no-repeat center;
+		background-size:auto 50vh;
+		}
 	}
-
-.carousel-slide:nth-child(3)
+@media (min-width: 1024px)
 	{
-	background:url("images/projet-final-fantasy-xiv-notes.png") no-repeat center;
-	background-size:auto 50vh;
+	.carousel-slide:nth-child(1)
+		{
+		background:url("images/projet-akina-usagi-hosts-file.png") no-repeat center;
+		background-size:auto 50vh;
+		}
+
+	.carousel-slide:nth-child(2)
+		{
+		background:url("images/projet-debian-configurations.png") no-repeat center;
+		background-size:auto 50vh;
+		}
+
+	.carousel-slide:nth-child(3)
+		{
+		background:url("images/projet-final-fantasy-xiv-notes.png") no-repeat center;
+		background-size:auto 50vh;
+		}
+
+	.carousel-slide:nth-child(4)
+		{
+		background:url("images/projet-open-ludum.png") no-repeat center;
+		background-size:auto 50vh;
+		}
+
+	.carousel-slide:nth-child(5)
+		{
+		background:url("images/projet-steam-proton-solutions.png") no-repeat center;
+		background-size:auto 50vh;
+		}
 	}
-
-.carousel-slide:nth-child(4)
-	{
-	background:url("images/projet-open-ludum.png") no-repeat center;
-	background-size:auto 50vh;
-    }
-
-.carousel-slide:nth-child(5)
-	{
-	background:url("images/projet-steam-proton-solutions.png") no-repeat center;
-	background-size:auto 50vh;
-    }
-}
 	    
 .carousel *
 	{
