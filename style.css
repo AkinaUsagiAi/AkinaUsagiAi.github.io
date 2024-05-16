@@ -7,7 +7,7 @@ html,body
 	overflow:hidden;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	html,body
 		{
@@ -109,7 +109,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#banner
 		{
@@ -140,7 +140,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#wall
 		{
@@ -171,7 +171,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#name
 		{
@@ -203,7 +203,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#desc
 		{
@@ -234,7 +234,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#char-left
 		{
@@ -272,7 +272,7 @@ a
 	right:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#char-right
 		{
@@ -308,7 +308,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-left
 		{
@@ -343,7 +343,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-left-1
 		{
@@ -374,7 +374,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-left-2
 		{
@@ -405,7 +405,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-left-3
 		{
@@ -436,7 +436,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-left-4
 		{
@@ -467,7 +467,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-left-5
 		{
@@ -498,7 +498,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-left-6
 		{
@@ -530,7 +530,7 @@ a
 	visibility:hidden;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-left-area
 		{
@@ -558,7 +558,7 @@ a
 	right:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-right
 		{
@@ -593,7 +593,7 @@ a
 	right:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-right-1
 		{
@@ -624,7 +624,7 @@ a
 	right:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-right-2
 		{
@@ -655,7 +655,7 @@ a
 	right:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-right-3
 		{
@@ -687,7 +687,7 @@ a
 	visibility:hidden;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-right-area
 		{
@@ -717,7 +717,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu
 		{
@@ -750,7 +750,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-1
 		{
@@ -783,7 +783,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-2
 		{
@@ -816,7 +816,7 @@ a
 	left:0;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-3
 		{
@@ -855,7 +855,7 @@ a
 	visibility:hidden;
 	}
 
-@media screen and (orientation: portrait)
+@media only screen and (pointer: coarse){
 	{
 	#menu-area
 		{
