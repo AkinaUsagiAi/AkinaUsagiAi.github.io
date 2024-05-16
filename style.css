@@ -7,7 +7,7 @@ html,body
 	overflow:hidden;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	html,body
 		{
@@ -15,7 +15,7 @@ html,body
 		background-size:auto 120vh;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	html,body
 		{
@@ -109,7 +109,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#banner
 		{
@@ -118,7 +118,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#banner
 		{
@@ -140,7 +140,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#wall
 		{
@@ -149,7 +149,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#wall
 		{
@@ -171,7 +171,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#name
 		{
@@ -180,7 +180,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#name
 		{
@@ -203,7 +203,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#desc
 		{
@@ -212,7 +212,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#desc
 		{
@@ -234,7 +234,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#char-left
 		{
@@ -244,7 +244,7 @@ a
         animation: char_left_sprite 0.75s steps(4) infinite;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#char-left
 		{
@@ -272,7 +272,7 @@ a
 	right:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#char-right
 		{
@@ -282,7 +282,7 @@ a
         animation: char_right_sprite 0.4s steps(2) infinite;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#char-right
 		{
@@ -308,7 +308,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-left
 		{
@@ -319,7 +319,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-left
 		{
@@ -343,7 +343,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-left-1
 		{
@@ -352,7 +352,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-left-1
 		{
@@ -374,7 +374,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-left-2
 		{
@@ -383,7 +383,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-left-2
 		{
@@ -405,7 +405,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-left-3
 		{
@@ -414,7 +414,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-left-3
 		{
@@ -436,7 +436,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-left-4
 		{
@@ -445,7 +445,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-left-4
 		{
@@ -467,7 +467,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-left-5
 		{
@@ -476,7 +476,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-left-5
 		{
@@ -498,7 +498,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-left-6
 		{
@@ -507,7 +507,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-left-6
 		{
@@ -530,7 +530,7 @@ a
 	visibility:hidden;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-left-area
 		{
@@ -539,7 +539,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-left-area
 		{
@@ -558,7 +558,7 @@ a
 	right:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-right
 		{
@@ -569,7 +569,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-right
 		{
@@ -593,7 +593,7 @@ a
 	right:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-right-1
 		{
@@ -602,7 +602,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-right-1
 		{
@@ -624,7 +624,7 @@ a
 	right:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-right-2
 		{
@@ -633,7 +633,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-right-2
 		{
@@ -655,7 +655,7 @@ a
 	right:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-right-3
 		{
@@ -664,7 +664,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-right-3
 		{
@@ -687,7 +687,7 @@ a
 	visibility:hidden;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-right-area
 		{
@@ -696,7 +696,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-right-area
 		{
@@ -717,7 +717,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu
 		{
@@ -727,7 +727,7 @@ a
         animation: menu_sprite 1s steps(12) infinite;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu
 		{
@@ -750,7 +750,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-1
 		{
@@ -760,7 +760,7 @@ a
         animation: menu_sprite 1s steps(12) infinite;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-1
 		{
@@ -783,7 +783,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-2
 		{
@@ -793,7 +793,7 @@ a
         animation: menu_sprite 1s steps(12) infinite;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-2
 		{
@@ -816,7 +816,7 @@ a
 	left:0;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-3
 		{
@@ -826,7 +826,7 @@ a
         animation: menu_sprite 1s steps(12) infinite;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-3
 		{
@@ -855,7 +855,7 @@ a
 	visibility:hidden;
 	}
 
-@media only screen and (pointer: coarse){
+@media screen and (orientation: portrait)
 	{
 	#menu-area
 		{
@@ -864,7 +864,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media only screen and (min-width: 701px)
+@media screen and (orientation: landscape)
 	{
 	#menu-area
 		{
