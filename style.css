@@ -7,15 +7,15 @@ html,body
 	overflow:hidden;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	html,body
 		{
 		background:url("mobile_ui/wall-pic.jpg") no-repeat center;
-		background-size:auto 100vh;
+		background-size:auto 120vh;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	html,body
 		{
@@ -109,7 +109,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#banner
 		{
@@ -118,7 +118,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#banner
 		{
@@ -140,7 +140,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#wall
 		{
@@ -149,7 +149,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#wall
 		{
@@ -171,7 +171,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#name
 		{
@@ -180,7 +180,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#name
 		{
@@ -203,7 +203,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#desc
 		{
@@ -212,7 +212,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#desc
 		{
@@ -234,7 +234,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#char-left
 		{
@@ -244,7 +244,7 @@ a
         animation: char_left_sprite 0.75s steps(4) infinite;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#char-left
 		{
@@ -272,7 +272,7 @@ a
 	right:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#char-right
 		{
@@ -282,7 +282,7 @@ a
         animation: char_right_sprite 0.4s steps(2) infinite;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#char-right
 		{
@@ -302,27 +302,29 @@ a
 	{
 	margin:0;
 	padding:0;
-	width:50vw;
-	height:100vh;
 	overflow:hidden;
 	position:absolute;
 	top:0;
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-left
 		{
-		background:url("mobile_ui/menu-left.png") no-repeat top left;
+		width:100vw;
+		height:100vh;
+		background:url("mobile_ui/menu-left.png") no-repeat center;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-left
 		{
+		width:50vw;
+		height:100vh;
 		background:url("desktop_ui/menu-left.png") no-repeat top left;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
@@ -341,7 +343,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-left-1
 		{
@@ -350,7 +352,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-left-1
 		{
@@ -372,7 +374,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-left-2
 		{
@@ -381,7 +383,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-left-2
 		{
@@ -403,7 +405,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-left-3
 		{
@@ -412,7 +414,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-left-3
 		{
@@ -434,7 +436,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-left-4
 		{
@@ -443,7 +445,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-left-4
 		{
@@ -465,7 +467,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-left-5
 		{
@@ -474,7 +476,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-left-5
 		{
@@ -496,7 +498,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-left-6
 		{
@@ -505,7 +507,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-left-6
 		{
@@ -528,7 +530,7 @@ a
 	visibility:hidden;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-left-area
 		{
@@ -537,7 +539,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-left-area
 		{
@@ -550,27 +552,29 @@ a
 	{
 	margin:0;
 	padding:0;
-	width:50vw;
-	height:100vh;
 	overflow:hidden;
 	position:absolute;
 	top:0;
 	right:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-right
 		{
-		background:url("mobile_ui/menu-right.png") no-repeat top right;
+		width:100vw;
+		height:100vh;
+		background:url("mobile_ui/menu-right.png") no-repeat top center;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-right
 		{
+		width:50vw;
+		height:100vh;
 		background:url("desktop_ui/menu-right.png") no-repeat top right;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
@@ -589,7 +593,7 @@ a
 	right:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-right-1
 		{
@@ -598,7 +602,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-right-1
 		{
@@ -620,7 +624,7 @@ a
 	right:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-right-2
 		{
@@ -629,7 +633,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-right-2
 		{
@@ -651,7 +655,7 @@ a
 	right:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-right-3
 		{
@@ -660,7 +664,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-right-3
 		{
@@ -683,7 +687,7 @@ a
 	visibility:hidden;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-right-area
 		{
@@ -692,7 +696,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-right-area
 		{
@@ -713,17 +717,17 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu
 		{
 		background:url("mobile_ui/menu.png") no-repeat top;
-		background-size: auto 1600vh;
+		background-size: auto 1200vh;
 		image-rendering: pixelated;
         animation: menu_sprite 1s steps(12) infinite;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu
 		{
@@ -746,7 +750,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-1
 		{
@@ -756,7 +760,7 @@ a
         animation: menu_sprite 1s steps(12) infinite;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-1
 		{
@@ -779,7 +783,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-2
 		{
@@ -789,7 +793,7 @@ a
         animation: menu_sprite 1s steps(12) infinite;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-2
 		{
@@ -812,7 +816,7 @@ a
 	left:0;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-3
 		{
@@ -822,7 +826,7 @@ a
         animation: menu_sprite 1s steps(12) infinite;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-3
 		{
@@ -851,7 +855,7 @@ a
 	visibility:hidden;
 	}
 
-@media (any-pointer: coarse)
+@media only screen and (max-width: 700px)
 	{
 	#menu-area
 		{
@@ -860,7 +864,7 @@ a
 		image-rendering: pixelated;
 		}
 	}
-@media (any-pointer: fine)
+@media only screen and (min-width: 701px)
 	{
 	#menu-area
 		{
