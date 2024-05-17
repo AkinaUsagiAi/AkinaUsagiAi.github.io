@@ -10,23 +10,53 @@ var canvas3_id;
 var canvas3_context;
 var image3=new Image();
 
+function isMobile() {
+    var match = window.matchMedia || window.msMatchMedia;
+    if(match) {
+        var mq = match("(pointer:coarse)");
+        return mq.matches;
+    }
+    return false;
+}
+
 function resizeCanvas()
 	{
-    canvas_id.width  = window.innerWidth / 2;
-	canvas_id.height = window.innerHeight;
-	canvas2_id.width  = window.innerWidth / 2;
-	canvas2_id.height = window.innerHeight;
-	canvas3_id.width  = window.innerWidth / 4;
-	canvas3_id.height = window.innerHeight;
-
+	if (isMobile())
+		{
+		canvas_id.width  = window.innerWidth;
+		canvas_id.height = window.innerHeight;
+		canvas2_id.width  = window.innerWidth;
+		canvas2_id.height = window.innerHeight;
+		canvas3_id.width  = window.innerWidth / 2;
+		canvas3_id.height = window.innerHeight;
+		}
+	else
+		{
+		canvas_id.width  = window.innerWidth / 2;
+		canvas_id.height = window.innerHeight;
+		canvas2_id.width  = window.innerWidth / 2;
+		canvas2_id.height = window.innerHeight;
+		canvas3_id.width  = window.innerWidth / 4;
+		canvas3_id.height = window.innerHeight;	
+		}
+		
 	var height = window.innerHeight;
 	var width = image.naturalWidth * window.innerHeight / image.naturalHeight;
 	var width2 = image2.naturalWidth * window.innerHeight / image2.naturalHeight;
 	var width3 = image3.naturalWidth * window.innerHeight / image3.naturalHeight;
 
-	canvas_context.drawImage(image, 0, 0, width, height);
-	canvas2_context.drawImage(image2, canvas2_id.width-width2, 0, width2, height);
-	canvas3_context.drawImage(image3, (canvas3_id.width-width3)/2, 0, width3, height);
+	if (isMobile())
+		{
+		canvas_context.drawImage(image, (canvas_id.width-width)/2, 0, width, height);
+		canvas2_context.drawImage(image2, (canvas2_id.width-width2)/2, 0, width2, height);
+		canvas3_context.drawImage(image3, (canvas3_id.width-width3)/2, 0, width3, height);
+		}
+	else
+		{
+		canvas_context.drawImage(image, 0, 0, width, height);
+		canvas2_context.drawImage(image2, canvas2_id.width-width2, 0, width2, height);
+		canvas3_context.drawImage(image3, (canvas3_id.width-width3)/2, 0, width3, height);
+		}	
 	}
 
 function getCursorPosition(canvas, context, event) {
@@ -262,19 +292,28 @@ document.addEventListener('DOMContentLoaded', function()
 		{
 		resizeCanvas();
 		};
-	image.src="./desktop_ui/menu-left-area.png";
-
+	if (isMobile())
+		image.src="./mobile_ui/menu-left-area.png";
+	else
+		image.src="./desktop_ui/menu-left-area.png";
+	
 	image2.onload=function()
 		{
 		resizeCanvas();
 		};
-	image2.src="./desktop_ui/menu-right-area.png";
+	if (isMobile())
+		image2.src="./mobile_ui/menu-right-area.png";
+	else
+		image2.src="./desktop_ui/menu-right-area.png";
 
 	image3.onload=function()
 		{
 		resizeCanvas();
 		};
-	image3.src="./desktop_ui/menu-area.png";
+	if (isMobile())
+		image3.src="./mobile_ui/menu-area.png";
+	else
+		image3.src="./desktop_ui/menu-area.png";
 	}, false);
 
 
