@@ -521,8 +521,6 @@ a
 	{
 	margin:0;
 	padding:0;
-	width:50vw;
-	height:100vh;
 	overflow:hidden;
 	position:absolute;
 	top:0;
@@ -534,7 +532,8 @@ a
 	{
 	#menu-left-area
 		{
-		background:url("mobile_ui/menu-left-area.png") no-repeat top left;
+		width:100vw;
+		height:100vh;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
 		}
@@ -543,6 +542,8 @@ a
 	{
 	#menu-left-area
 		{
+		width:50vw;
+		height:100vh;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
 		}
@@ -678,8 +679,6 @@ a
 	{
 	margin:0;
 	padding:0;
-	width:50vw;
-	height:100vh;
 	overflow:hidden;
 	position:absolute;
 	top:0;
@@ -691,7 +690,8 @@ a
 	{
 	#menu-right-area
 		{
-		background:url("mobile_ui/menu-right-area.png") no-repeat top left;
+		width:100vw;
+		height:100vh;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
 		}
@@ -700,6 +700,8 @@ a
 	{
 	#menu-right-area
 		{
+		width:50vw;
+		height:100vh;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
 		}
@@ -846,12 +848,8 @@ a
 	{
 	margin:0;
 	padding:0;
-	width:25vw;
-	height:100vh;
 	overflow:hidden;
 	position:absolute;
-	top:0;
-	left:37.5vw;
 	visibility:hidden;
 	}
 
@@ -859,7 +857,10 @@ a
 	{
 	#menu-area
 		{
-		background:url("mobile_ui/menu-area.png") no-repeat top left;
+		width:50vw;
+		height:100vh;
+		top:0;
+		left:25vw;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
 		}
@@ -868,6 +869,10 @@ a
 	{
 	#menu-area
 		{
+		width:25vw;
+		height:100vh;
+		top:0;
+		left:37.5vw;
 		background-size: auto 100vh;
 		image-rendering: pixelated;
 		}
