@@ -136,22 +136,22 @@ function getCursorPositionClick(canvas, context, event) {
 	switch (data[0])
 		{
 		case 16:
-			window.open("https://github.com/AkinaUsagiAi/Akina-Usagi-Hosts-File", "_blank");
+			window.open("https://github.com/JackoboLeChocobo/Jackobo-Hosts-File", "_blank");
 			break;
 		case 32:
-			window.open("https://github.com/AkinaUsagiAi/Debian-Configurations", "_blank");
+			window.open("https://github.com/JackoboLeChocobo/Debian-Configurations", "_blank");
 			break;
 		case 48:
-			window.open("https://github.com/AkinaUsagiAi/Electronique-Notes", "_blank");
+			window.open("https://github.com/JackoboLeChocobo/Electronique-Notes", "_blank");
 			break;
 		case 64:
-			window.open("https://github.com/AkinaUsagiAi/Final-Fantasy-XIV-Notes", "_blank");
+			window.open("https://github.com/JackoboLeChocobo/Final-Fantasy-XIV-Notes", "_blank");
 			break;
 		case 80:
-			window.open("https://github.com/AkinaUsagiAi/Open-Ludum", "_blank");
+			window.open("https://github.com/JackoboLeChocobo/Open-Ludum", "_blank");
 			break;
 		case 96:
-			window.open("https://github.com/AkinaUsagiAi/Steam-Proton-Solutions", "_blank");
+			window.open("https://github.com/JackoboLeChocobo/Steam-Proton-Solutions", "_blank");
 			break;
 		default:
 			break;
@@ -247,13 +247,13 @@ function getCursorPositionClick3(canvas, context, event) {
 	switch (data[0])
 		{
 		case 160:
-			window.open("https://github.com/AkinaUsagiAi", "_blank");
+			window.open("https://github.com/JackoboLeChocobo", "_blank");
 			break;
 		case 176:
-			window.open("mailto:akina.usagi.ai@gmail.com", "_blank");
+			window.open("mailto:imbert.jacquesolivier@gmail.com", "_blank");
 			break;
 		case 192:
-			window.open("https://www.youtube.com/@AkinaUsagiAi", "_blank");
+			window.open("https://www.youtube.com/@JackoboLeChocobo", "_blank");
 			break;
 		default:
 			break;
