@@ -12,7 +12,7 @@ html,body
 	html,body
 		{
 		background:url("mobile_ui/wall-pic.jpg") no-repeat center;
-		background-size:auto 100vh;
+		background-size:auto 120vh;
 		}
 	}
 @media (min-width:1024px)
