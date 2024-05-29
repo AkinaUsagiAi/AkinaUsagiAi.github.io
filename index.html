@@ -2,40 +2,51 @@
 	<html>
 		<head>
 			<meta charset="utf-8">
+			<link rel="stylesheet" href="bouton.css">
 			<link rel="stylesheet" href="style.css">
 			<link rel="icon" type="image/png" href="images/rabbit.svg" />
-			<title>Jackobo Le Chocobo Github Website</title>
-			<script type="text/javascript" src="javascript.js"></script>
+			<title>Jackobo Le Chocobo - Github Website</title>
 		</head>
 		<body>
-			<div id="wall"></div>
-			<div id="sun"></div>
-			<div id="stars"></div>
-			<div id="stars2"></div>
-			<div id="stars3"></div>
-			<div id="city"></div>
 			<div id="banner"></div>
-			<div id="name"></div>
-			<div id="desc"></div>
-			<div id="char-left"></div>
-			<div id="char-right"></div>
-			<div id="menu-left"></div>
-			<div id="menu-left-1" class="hidden"></div>
-			<div id="menu-left-2" class="hidden"></div>
-			<div id="menu-left-3" class="hidden"></div>
-			<div id="menu-left-4" class="hidden"></div>
-			<div id="menu-left-5" class="hidden"></div>
-			<div id="menu-left-6" class="hidden"></div>
-			<div id="menu-right"></div>
-			<div id="menu-right-1" class="hidden"></div>
-			<div id="menu-right-2" class="hidden"></div>
-			<div id="menu-right-3" class="hidden"></div>
-			<div id="menu"></div>
-			<div id="menu-1" class="hidden"></div>
-			<div id="menu-2" class="hidden"></div>
-			<div id="menu-3" class="hidden"></div>
-			<canvas id="menu-left-area"></canvas>
-			<canvas id="menu-right-area"></canvas>
-			<canvas id="menu-area"></canvas>
+			<div id="menu">
+				<a name="menu"></a>
+				<p class="menu"><a class="github" href="#presentation">Présentation</a> <span class="hidden">----</span> <a class="github" href="#telechargements">Téléchargements</a> <span class="hidden">----</span> <a class="github" href="#autresprojets">Autres projets</a></p>
+			</div>
+			<div id="contenu">
+				<a name="presentation"></a>
+				<p class="contenu_titre">Présentation</p>
+				
+				<p class="contenu_texte">Fenikkusu (Phénix en japonais) est une distribution Linux compact, rapide et moderne. Avec la possibilité de fonctionner directement à partir d'un disque dur sur votre PC ou d'une clé/disque dur USB, Fenikkusu est portable. Il offre une interface utilisateur visuellement attrayante et une sélection de programmes de base préinstallés tel qu'un gestionnaire de fichiers, un éditeur de texte, un navigateur Web, etc.</p>
+				<p class="contenu_texte">Construit sur Debian, Fenikkusu utilise des fonctionnalités que j'avais réalisé pour <a class="github" href="https://en.wikipedia.org/wiki/Platypux">Platypux</a> : la sauvegarde automatique des paramètres vidéo/Xorg pour tous les utilisateurs de votre système pour chaque PC utilisé par exemple. Avec les packages et applications facilement disponibles avec apt ou AppImage, les possibilités sont pratiquement illimités. Ainsi, que vous soyez un utilisateur expérimenté de Linux ou que vous débutiez, Fenikkusu a tout ce dont vous aurez besoin pour vos activités personnelles et professionnelles.</p>
+
+				<p class="contenu_images"><img class="screenshot" src="./captures/1.png" /> <img class="screenshot" src="./captures/2.png" /> <img class="screenshot" src="./captures/3.png" /> <img class="screenshot" src="./captures/4.png" /></p>
+
+				<p class="contenu_texte_retour"><a class="github" href="#menu">Revenir en haut</a></p>
+
+				<a name="telechargements"></a>
+				<p class="contenu_titre">Téléchargements</p>
+				
+				<p class="contenu_telecharger_bouton"><a href="#" class="button orange bigrounded">Version 29 Mai 2024</a></p>
+				<p class="contenu_telecharger_bouton_desc">Système construit sur Debian 12 - Kernel 6.1.0-21</p>
+
+				<p class="contenu_telecharger_texte">Nom d'utilisateur : fenikkusu, Mot de passe : fenikkusu</p>
+
+				<p class="contenu_texte_retour"><a class="github" href="#menu">Revenir en haut</a></p>
+				
+				<a name="autresprojets"></a>
+				<p class="contenu_titre">Autres projets</p>
+				
+				<p class="contenu_texte_titre">Steam Proton Solutions</p>
+			
+				<p class="contenu_texte">Vous trouverez sur cette page des outils et astuces pour lancer les jeux natifs Linux et les jeux Windows sous Linux, achetés sur Steam principalement, avec Proton uniquement ( https://github.com/ValveSoftware/Proton ).
+				Valve développant le support Windows avec leur projet, je ne proposerai pas d'autres solutions afin de rester avec leurs outils uniquement. Tous les jeux testés dans cette liste seront lancés directement via le client Steam officiel.</p>
+
+				<p class="contenu_texte">Lien du projet : <a class="github" href="https://github.com/JackoboLeChocobo/Steam-Proton-Solutions" target="_blank">https://github.com/JackoboLeChocobo/Steam-Proton-Solutions</a></p>
+
+				<p class="contenu_texte_retour"><a class="github" href="#menu">Revenir en haut</a></p>
+
+			</div>
+			
 		</body>
 	</html>
