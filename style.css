@@ -136,7 +136,7 @@ a.github:hover, a.github:active
 		{
 		font-family: "Ubuntu-R";
 		color:#000000;
-		font-size:1.5vh;
+		font-size:2vh;
 		text-align:center;
 		}
 	}
@@ -246,7 +246,7 @@ a.github:hover, a.github:active
 		{
 		font-family: "Ubuntu-B";
 		color:#000000;
-		font-size:2.5vh;
+		font-size:3vh;
 		text-align:center;
 		}
 
@@ -254,7 +254,7 @@ a.github:hover, a.github:active
 		{
 		font-family: "Ubuntu-B";
 		color:#000000;
-		font-size:1.5vh;
+		font-size:2vh;
 		text-align:justify;
 		}
 		
@@ -262,7 +262,7 @@ a.github:hover, a.github:active
 		{
 		font-family: "Ubuntu-R";
 		color:#000000;
-		font-size:1.5vh;
+		font-size:2vh;
 		text-align:justify;
 		}
 	
@@ -270,7 +270,7 @@ a.github:hover, a.github:active
 		{
 		font-family: "Ubuntu-R";
 		color:#000000;
-		font-size:1.5vh;
+		font-size:2vh;
 		text-align:right;
 		}
 
@@ -278,7 +278,7 @@ a.github:hover, a.github:active
 		{
 		font-family: "Ubuntu-R";
 		color:#000000;
-		font-size:1.5vh;
+		font-size:2vh;
 		text-align:center;
 		}
 
@@ -286,7 +286,7 @@ a.github:hover, a.github:active
 		{
 		font-family: "Ubuntu-B";
 		color:#000000;
-		font-size:2.5vh;
+		font-size:2vh;
 		text-align:center;
 		}
 
@@ -294,9 +294,9 @@ a.github:hover, a.github:active
 		{
 		font-family: "Ubuntu-RI";
 		color:#000000;
-		font-size:1.5vh;
+		font-size:2vh;
 		text-align:center;
-		margin-top:-1.5vh;
+		margin-top:-2vh;
 		}
 
 	p.contenu_images
