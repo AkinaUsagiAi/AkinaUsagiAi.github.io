@@ -129,7 +129,7 @@ a.github:hover, a.github:active
 	{
 	#menu
 		{
-		height:5vh;
+		height:5.5vh;
 		}
 		
 	p.menu
@@ -296,7 +296,7 @@ a.github:hover, a.github:active
 		color:#000000;
 		font-size:2vh;
 		text-align:center;
-		margin-top:-2vh;
+		margin-top:-1.5vh;
 		}
 
 	p.contenu_images
