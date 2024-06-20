@@ -81,7 +81,7 @@ a.github:hover, a.github:active
 	#banner
 		{
 		background:url("mobile_ui/banner.png") repeat-x center;
-		background-size: 150vw auto;
+		background-size: 130vw auto;
 		width:100vw;
 		height:20vh;
 		}
